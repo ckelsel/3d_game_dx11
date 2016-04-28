@@ -367,42 +367,6 @@ bool D3DApp::InitMainWindow()
 	return true;
 }
 
-bool D3DApp::MyInitDirect3D()
-{
-	UINT createDeviceFlags = 0;
-
-#if defined(DEBUG) || defined(_DEBUG)
-	createDeviceFlags |= D3D11_CREATE_DEVICE_DEBUG;
-#endif
-
-	D3D_FEATURE_LEVEL featureLevel;
-	HRESULT hr = D3D11CreateDevice(
-		0,
-		md3dDriverType,
-		0,
-		createDeviceFlags,
-		0, 0,
-		D3D11_SDK_VERSION,
-		&md3dDevice,
-		&featureLevel,
-		&md3dImmediateContext);
-
-	if ( FAILED(hr) )
-	{
-		return false;
-	}
-
-	if (featureLevel != D3D_FEATURE_LEVEL_11_0)
-	{
-		return false;
-	}
-
-	md3dDevice->CheckMultisampleQualityLevels(
-		DXGI_FORMAT_R8G8B8A8_UNORM, 4, &m4xMsaaQuality);
-	assert(m4xMsaaQuality > 0);
-
-}
-
 bool D3DApp::InitDirect3D()
 {
 	// Create the device and device context.
