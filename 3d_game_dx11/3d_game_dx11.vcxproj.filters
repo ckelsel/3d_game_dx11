@@ -18,5 +18,11 @@
     <ClCompile Include="BoxApp.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="..\Common\d3dApp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\GameTimer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
