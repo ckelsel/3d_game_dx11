@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter6_box", "3d_game_dx11\3d_game_dx11.vcxproj", "{4BA22589-BBAC-41E6-9EAB-9E033B630273}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{A6E83391-3E98-4CFD-9C78-D5F2C0154C65}"
+	ProjectSection(SolutionItems) = preProject
+		Common\Camera.cpp = Common\Camera.cpp
+		Common\Camera.h = Common\Camera.h
+		Common\d3dApp.cpp = Common\d3dApp.cpp
+		Common\d3dApp.h = Common\d3dApp.h
+		Common\d3dUtil.cpp = Common\d3dUtil.cpp
+		Common\d3dUtil.h = Common\d3dUtil.h
+		Common\d3dx11effect.h = Common\d3dx11effect.h
+		Common\GameTimer.cpp = Common\GameTimer.cpp
+		Common\GameTimer.h = Common\GameTimer.h
+		Common\GeometryGenerator.cpp = Common\GeometryGenerator.cpp
+		Common\GeometryGenerator.h = Common\GeometryGenerator.h
+		Common\LightHelper.cpp = Common\LightHelper.cpp
+		Common\LightHelper.h = Common\LightHelper.h
+		Common\MathHelper.cpp = Common\MathHelper.cpp
+		Common\MathHelper.h = Common\MathHelper.h
+		Common\TextureMgr.cpp = Common\TextureMgr.cpp
+		Common\TextureMgr.h = Common\TextureMgr.h
+		Common\Waves.cpp = Common\Waves.cpp
+		Common\Waves.h = Common\Waves.h
+		Common\xnacollision.cpp = Common\xnacollision.cpp
+		Common\xnacollision.h = Common\xnacollision.h
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BA22589-BBAC-41E6-9EAB-9E033B630273}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4BA22589-BBAC-41E6-9EAB-9E033B630273}.Debug|Win32.Build.0 = Debug|Win32
+		{4BA22589-BBAC-41E6-9EAB-9E033B630273}.Release|Win32.ActiveCfg = Release|Win32
+		{4BA22589-BBAC-41E6-9EAB-9E033B630273}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
