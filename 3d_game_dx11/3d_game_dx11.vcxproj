@@ -70,6 +70,7 @@
   <ItemGroup>
     <ClCompile Include="..\Common\d3dApp.cpp" />
     <ClCompile Include="..\Common\GameTimer.cpp" />
+    <ClCompile Include="..\Common\MathHelper.cpp" />
     <ClCompile Include="BoxApp.cpp" />
   </ItemGroup>
   <ItemGroup>

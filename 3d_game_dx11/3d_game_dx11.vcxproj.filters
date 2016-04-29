@@ -27,6 +27,9 @@
     <ClCompile Include="..\Common\GameTimer.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="..\Common\MathHelper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="FX\color.fx">
