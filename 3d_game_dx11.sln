@@ -28,6 +28,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{A6E833
 		Common\xnacollision.h = Common\xnacollision.h
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chapter6_skull", "chapter6_skull\chapter6_skull\chapter6_skull.vcxproj", "{C8F7FB0A-D94F-4B0F-9F28-CE2ADFDBF160}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E293B4A4-0859-41E0-A6B1-01110BABCBCB}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.txt = Readme.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -38,6 +45,10 @@ Global
 		{4BA22589-BBAC-41E6-9EAB-9E033B630273}.Debug|Win32.Build.0 = Debug|Win32
 		{4BA22589-BBAC-41E6-9EAB-9E033B630273}.Release|Win32.ActiveCfg = Release|Win32
 		{4BA22589-BBAC-41E6-9EAB-9E033B630273}.Release|Win32.Build.0 = Release|Win32
+		{C8F7FB0A-D94F-4B0F-9F28-CE2ADFDBF160}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C8F7FB0A-D94F-4B0F-9F28-CE2ADFDBF160}.Debug|Win32.Build.0 = Debug|Win32
+		{C8F7FB0A-D94F-4B0F-9F28-CE2ADFDBF160}.Release|Win32.ActiveCfg = Release|Win32
+		{C8F7FB0A-D94F-4B0F-9F28-CE2ADFDBF160}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
